@@ -79,7 +79,9 @@ main .top-section .card-2-text{
 }
 main .top-section .card-2-buttons{
     /*border: 4px solid blue;*/
+    margin-bottom: 30px;
 }
+
 
 main .top-section .card-3{
     background: url("../image/top-section-3.png")
@@ -107,12 +109,13 @@ main .top-section .card-3-text{
 }
 main .top-section .card-3-buttons{
     /*border: 4px solid blue;*/
+    margin-bottom: 380px;
 }
 
 main button{
     height: 45px;
     font-size: 15px;
-    border-radius: 22.5px;
+    border-radius: 22px;
     border: 2px solid #0070e1;
 }
 .blue-button{
@@ -126,4 +129,21 @@ main button{
     width: 100px;
     color: #0070e1  ;
     margin-left: 15px;
+}
+
+main .top-section .apple-ad{
+    height: 60px;
+}
+main .top-section .apple-ad .rainbow-font{
+
+    /*배경에 그라데이션 넣기*/
+    background: linear-gradient(to right, #0a8cf5, #f2530b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 23px;
+}
+main .top-section .apple-ad p {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
 }
