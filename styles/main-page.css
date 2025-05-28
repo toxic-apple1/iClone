@@ -3,7 +3,7 @@
 body {
     font-family: "Inter", sans-serif;
 }
-section {
+main .top-section .card {
     background: green;
     width: 1980px;
     height: 580px;
