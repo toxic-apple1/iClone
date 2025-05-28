@@ -1,0 +1,11 @@
+@import "common.css";
+
+body {
+    font-family: "Inter", sans-serif;
+}
+main .top-section .card {
+    background: green;
+    width: 1980px;
+    height: 580px;
+    margin-bottom:100px;
+}
