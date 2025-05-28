@@ -8,4 +8,69 @@ main .top-section .card {
     width: 1980px;
     height: 580px;
     margin-bottom:100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .top-section .card-1-title{
+    border: 4px solid red;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+main .top-section .card-1-title img {
+    height: 100%;
+}
+main .top-section .card-1-text{
+    border: 4px solid orange;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .top-section .card-1-buttons{
+    border: 4px solid blue;
+}
+
+main .top-section .card-2-title{
+    border: 4px solid red;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+main .top-section .card-2-text{
+    border: 4px solid orange;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .top-section .card-2-buttons{
+    border: 4px solid blue;
+}
+
+main .top-section .card-3-title{
+    border: 4px solid red;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+main .top-section .card-3-text{
+    border: 4px solid orange;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .top-section .card-3-buttons{
+    border: 4px solid blue;
 }
