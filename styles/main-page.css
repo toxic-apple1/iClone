@@ -1,5 +1,22 @@
 @import "common.css";
 @import "iphone.css";
+/*@import는 그 위치에 css가 있는 것으로
+@import 아래 쓰면 덮어쓰기 가능*/
+
+#global-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background: rgba(250, 250, 252,0.8);
+    backdrop-filter: blur(13px);/*배경에 블러 처리*/
+}
+
+#global-header .global-nav {
+    width: 1024px;
+    opacity: 1;
+}
 body {
     font-family: "Inter", sans-serif;
 }
@@ -146,4 +163,61 @@ main .top-section .apple-ad p {
     display: flex;
     justify-content: center;
     font-size: 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background: #f3f3f5;
+    font-size: 12px;
+}
+footer .footer-box {
+    width: 980px;
+    height: 1024px;
+}
+footer .foot-notes{
+    /*border: 4px solid red;*/
+}
+footer .foot-notes{
+    font-size: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    height: 220px;
+    line-height: 15px;
+    word-spacing: 1px;
+    opacity: 0.6;
+}
+footer .foot-notes p{
+    margin-bottom: 10px;
+}
+
+footer .link-directory{
+    display: flex;
+    margin-bottom: 25px;
+    /*border: 4px solid green;*/
+}
+footer .link-directory .link-directory-column {
+    width: 176px;
+    margin-right: 20px;
+}
+footer .link-directory .link-directory-column h2{
+    margin-bottom: 10px;
+    margin-top: 25px;
+    font-weight: 700;
+}
+footer .link-directory .link-directory-column ul li{
+    margin-bottom: 12px;
+}
+
+footer .shopping{
+    margin-bottom: 20px;
+}
+footer .shopping a{
+    color: #0065ca;
+    text-decoration: underline;
+
+}
+
+footer .foot-information{
+    /*border: 4px solid blue;*/
 }
