@@ -54,3 +54,41 @@
 }
 /* /공통 헤더 css */
 
+/* 제품 선택 네비게이션 영역(chapter-nav) */
+#chapter-nav {
+    width: 100%;
+    padding: 16px 0;
+    background: #FAFAFC;
+}
+#chapter-nav .chapter-nav-wrapper {
+    height: 100%;
+    padding: 0 34px 14px 34px;
+}
+#chapter-nav .chapter-nav-wrapper .chapter-nav-items {
+    padding-top: 4px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chapter-nav-items .chapter-nav-item {
+    padding: 0 20px;
+}
+.chapter-nav-items .chapter-nav-item:first-child {
+    padding-left: 4px;
+}
+.chapter-nav-items .chapter-nav-item:last-child {
+    padding-right: 4px;
+}
+.chapter-nav-items .chapter-nav-item a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.chapter-nav-items .chapter-nav-item a span {
+    font-size: 12px;
+    line-height: 1.33;
+    font-weight: 300;
+}
+/* /제품 선택 네비게이션 영역(chapter-nav) */
