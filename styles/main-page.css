@@ -1,5 +1,5 @@
 @import "common.css";
-
+@import "iphone.css";
 body {
     font-family: "Inter", sans-serif;
 }
@@ -15,7 +15,7 @@ main .top-section .card {
     align-items: center;
 }
 main .top-section .card-1{
-    background: url("../image/top-section-1.png")
+    background: url("../img/top-section-1.png")
     no-repeat center/cover;
 }
 main .top-section .card-1-title{
@@ -56,7 +56,7 @@ main .top-section .card-1-buttons{
 }
 
 main .top-section .card-2{
-    background: url("../image/top-section-2.png")
+    background: url("../img/top-section-2.png")
     no-repeat center/cover;
 }
 main .top-section .card-2-title{
@@ -84,7 +84,7 @@ main .top-section .card-2-buttons{
 
 
 main .top-section .card-3{
-    background: url("../image/top-section-3.png")
+    background: url("../img/top-section-3.png")
     no-repeat center/cover;
 }
 main .top-section .card-3-title{
