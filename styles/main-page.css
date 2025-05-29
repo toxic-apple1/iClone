@@ -4,12 +4,17 @@
 @import 아래 쓰면 덮어쓰기 가능*/
 
 #global-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: fixed;
     background: rgba(250, 250, 252,0.8);
     backdrop-filter: blur(13px);/*배경에 블러 처리*/
 }
 
 #global-header .global-nav {
+    width: 1024px;
     opacity: 1;
 }
 body {
