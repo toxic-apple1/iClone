@@ -1,6 +1,7 @@
 @import url("common.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css");
 
+/* 공통 헤더 css */
 #global-header {
     position: fixed;
     width: 1980px;
@@ -63,6 +64,7 @@
 #chapter-nav .chapter-nav-wrapper {
     height: 100%;
     padding: 0 34px 14px 34px;
+    margin-top: 44px;
 }
 #chapter-nav .chapter-nav-wrapper .chapter-nav-items {
     padding-top: 4px;
