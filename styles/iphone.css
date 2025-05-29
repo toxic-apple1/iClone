@@ -94,3 +94,39 @@
     font-weight: 300;
 }
 /* /제품 선택 네비게이션 영역(chapter-nav) */
+
+/* 메인 영역 */
+
+/* 리본 영역 */
+#iphone-main .section-ribbon {
+    width: 100%;
+    padding: 9px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F5F5F7;
+}
+#iphone-main .section-ribbon .ribbon-wrapper {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ribbon-wrapper p {
+    color: #1D1D1F;
+    font-size: 12px;
+    line-height: 1.4;
+    font-weight: 500;
+    letter-spacing: 0;
+}
+.ribbon-wrapper p .footnote a {
+    text-decoration: underline;
+    text-underline-offset: -0.28em;
+}
+.ribbon-wrapper p>a {
+    color: #0071E3;;
+}
+/* /리본 영역 */
+
+
+/* /메인 영역 */
