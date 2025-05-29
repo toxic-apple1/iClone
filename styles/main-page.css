@@ -1,5 +1,17 @@
 @import "common.css";
 @import "iphone.css";
+/*@import는 그 위치에 css가 있는 것으로
+@import 아래 쓰면 덮어쓰기 가능*/
+
+#global-header {
+    position: fixed;
+    background: rgba(250, 250, 252,0.8);
+    backdrop-filter: blur(13px);/*배경에 블러 처리*/
+}
+
+#global-header .global-nav {
+    opacity: 1;
+}
 body {
     font-family: "Inter", sans-serif;
 }
@@ -158,11 +170,11 @@ footer .footer-box {
     width: 980px;
 }
 footer .foot-notes{
-    border: 4px solid red;
+    /*border: 4px solid red;*/
 }
 footer .link-directory{
     display: flex;
-    border: 4px solid green;
+    /*border: 4px solid green;*/
 }
 footer .link-directory .link-directory-column {
     width: 176px;
@@ -178,5 +190,5 @@ footer .link-directory .link-directory-column ul li{
 }
 
 footer .foot-information{
-    border: 4px solid blue;
+    /*border: 4px solid blue;*/
 }
