@@ -173,9 +173,7 @@ footer .footer-box {
     width: 980px;
     height: 1024px;
 }
-footer .foot-notes{
-    /*border: 4px solid red;*/
-}
+
 footer .foot-notes{
     font-size: 10px;
     margin-top: 20px;
@@ -224,7 +222,6 @@ footer .foot-information .Copyright-others{
 }
 footer .foot-information .Copyright-others .link-container{
     width: 60%;
-    /*border: 1px solid red;*/
 }
 footer .foot-information .other-information{
     font-size: 11px;
