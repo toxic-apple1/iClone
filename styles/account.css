@@ -313,3 +313,42 @@ button.continue-btn {
 .form-area .form-item.captcha .image-text{
     flex: 1;
 }
+footer{
+    height: 52px;
+    width: 950px;
+    font-size:12px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    margin: 0 auto;
+    align-items: center;
+    padding-bottom: 50px;
+    line-height: 20px;
+    color: #626273;
+    position: relative;
+}
+footer .ac-footer-shop .footer-shop:hover,
+footer .ac-footer-shop .reselling:hover{
+    text-decoration: underline;
+
+}
+footer .ac-footer-shop .footer-shop,
+footer .ac-footer-shop .reselling{
+    color: #0066cc;
+}
+footer .ac-footer-legal {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    color: #424245;
+
+}
+footer .footer-group{
+    margin-left: 20px;
+    word-spacing: 3px;
+}
+footer .korea{
+    position: absolute;
+    top: -3px;
+    right: 0;
+}
