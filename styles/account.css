@@ -63,7 +63,7 @@ body {
     position: absolute;
     width: 12px;
     height: 12px;
-    background-image: url("../ico-arrow.svg");
+    background-image: url("ico-arrow.svg");
     background-size: contain;
     top: 50%;
     transform: translateY(-50%);
